@@ -1,15 +1,14 @@
-import { CaretLeft, CaretRight } from "phosphor-react";
-import { useContext } from "react";
-import { TransactionsContext } from "../../contexts/TransactionsContext";
+import { CaretLeft, CaretRight } from 'phosphor-react'
+import { useContext } from 'react'
+import { TransactionsContext } from '../../contexts/TransactionsContext'
 import {
   PaginationContainer,
   PaginationItem,
   PaginationContent,
-} from "./styles";
+} from './styles'
 
 export function Pagination() {
-  const { currentPage, setCurrentPage, pages } =
-    useContext(TransactionsContext);
+  const { currentPage, setCurrentPage, pages } = useContext(TransactionsContext)
 
   return (
     <PaginationContainer>
@@ -32,7 +31,7 @@ export function Pagination() {
                 {page}
               </PaginationItem>
             )
-          );
+          )
         })}
         {currentPage < pages.length && (
           <PaginationItem onClick={() => setCurrentPage(currentPage + 1)}>
@@ -41,5 +40,5 @@ export function Pagination() {
         )}
       </PaginationContent>
     </PaginationContainer>
-  );
+  )
 }

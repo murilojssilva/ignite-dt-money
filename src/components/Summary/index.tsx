@@ -6,7 +6,6 @@ import { SummaryContainer } from './styles'
 
 export function Summary() {
   const theme = useTheme()
-
   const summary = useSummary()
   return (
     <SummaryContainer>

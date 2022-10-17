@@ -1,13 +1,13 @@
-import { CircleNotch } from "phosphor-react";
-import { useTheme } from "styled-components";
+import { CircleNotch } from 'phosphor-react'
+import { useTheme } from 'styled-components'
 
-import { LoadingContainer } from "./styles";
+import { LoadingContainer } from './styles'
 
 export function Loading() {
-  const theme = useTheme();
+  const theme = useTheme()
   return (
     <LoadingContainer>
-      <CircleNotch color={theme["green-300"]} size={32}>
+      <CircleNotch color={theme['green-300']} size={32}>
         <animate
           attributeName="opacity"
           values="0;1;0"
@@ -25,5 +25,5 @@ export function Loading() {
         ></animateTransform>
       </CircleNotch>
     </LoadingContainer>
-  );
+  )
 }
