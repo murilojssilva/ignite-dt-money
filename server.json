@@ -31,6 +31,62 @@
       "type": "outcome",
       "createdAt": "2022-10-14T22:58:23.898Z",
       "id": 4
+    },
+    {
+      "description": "Computador",
+      "price": 5000,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:14:44.444Z",
+      "id": 5
+    },
+    {
+      "description": "Caixa de som",
+      "price": 200,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:15:00.776Z",
+      "id": 6
+    },
+    {
+      "description": "Viagem",
+      "price": 2000,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:15:19.324Z",
+      "id": 7
+    },
+    {
+      "description": "Cinema",
+      "price": 50,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:15:33.165Z",
+      "id": 8
+    },
+    {
+      "description": "Luz",
+      "price": 500,
+      "category": "Contas",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:15:57.307Z",
+      "id": 9
+    },
+    {
+      "description": "Água",
+      "price": 200,
+      "category": "Contas",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:16:19.825Z",
+      "id": 10
+    },
+    {
+      "description": "Inglês",
+      "price": 200,
+      "category": "Curso",
+      "type": "outcome",
+      "createdAt": "2022-10-17T18:16:36.396Z",
+      "id": 11
     }
   ]
 }
